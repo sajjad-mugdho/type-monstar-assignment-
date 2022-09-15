@@ -216,7 +216,7 @@ button {
   }
 
   #histories {
-    grid-template-columns: repeat(3, minmax(3, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   #blog {
