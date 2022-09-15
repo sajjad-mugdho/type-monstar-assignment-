@@ -16,6 +16,16 @@ body {
   margin: 0 auto;
 }
 
+#blog {
+  position: absolute;
+  color: aliceblue;
+  right: 250px;
+  font-size: 20px;
+  font-weight: 600;
+
+
+}
+
 #question {
   height: 100px;
   display: flex;
