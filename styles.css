@@ -193,6 +193,21 @@ button {
   top: 0;
 }
 
+/* Blog Artical section */
+
+#articles article {
+  color: whitesmoke;
+  border: .5px solid #9dffad;
+  border-radius: 5px;
+  padding: 15px 15px;
+  margin: 15px;
+
+}
+
+#articles article h2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
 
 @media only screen and (max-width: 700px) {
   .box-container {
@@ -201,7 +216,7 @@ button {
   }
 
   #histories {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(3, 1fr));
   }
 
   #blog {
@@ -212,10 +227,6 @@ button {
     flex-direction: column;
   }
 }
-
-
-
-
 
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
   #histories {
